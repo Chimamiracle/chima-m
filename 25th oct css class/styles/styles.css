@@ -1,0 +1,78 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1fr;
+  height: 80vh;
+  background-color: #f0f2f5;
+  margin: 2rem;
+}
+
+.body .hd {
+  margin: 5rem;
+  place-items: center left;
+  color: #408ef4;
+  font-size: larger;
+}
+
+.body .be {
+  color: #000;
+}
+
+.body .fa {
+  font-size: 2rem;
+}
+
+.dl .boby {
+  display: grid;
+  padding: 0.7fr;
+  border: 50px;
+  border-radius: 2px;
+  background-color: #fff;
+  place-items: center;
+}
+
+.dl {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding-right: 0.7fr;
+  margin: 6rem;
+  height: 100rem;
+  border-radius: 3px;
+}
+
+.dl .lg {
+  background-color: #408ef4;
+  border: 30px;
+  border-radius: 2px;
+  width: 20rem;
+  color: #f0f2f5;
+  text-transform: capitalize;
+}
+
+.dl .new {
+  background-color: #95d687;
+  border: 30px;
+  border-radius: 2px;
+  width: 10rem;
+  color: #fff;
+  place-items: cernter normal;
+}
+
+.dl .boby .me {
+  background-color: #f1f1f1;
+  border: 30px;
+  border-radius: 2px;
+  width: 20rem;
+  color: #000;
+  height: 30px;
+  text-transform: capitalize;
+  object-fit: contain;
+}
+
+.dl .boby .um {
+  background-color: #f1f1f1;
+  border: 30px;
+  width: 20rem;
+  height: 30px;
+  text-transform: capitalize;
+}
